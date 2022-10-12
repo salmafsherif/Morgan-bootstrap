@@ -1,0 +1,650 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Navbar  */
+.nav-link {
+    color: #fff !important;
+}
+
+.bg-dark {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.underline {
+    background-color: #fff;
+    height: 2px;
+    width: 20%;
+    transition: width 0.5s, opacity 0.5s;
+    opacity: 0;
+}
+
+.navbar li:hover .underline {
+    width: 60%;
+    opacity: 1;
+}
+
+.dropdown-menu {
+    position: relative;
+}
+
+.dropdown-menu .submenu {
+    display: none;
+    position: absolute;
+    right: 100%;
+    top: 0px;
+}
+
+.dropdown-menu>li:hover>.submenu {
+    display: block;
+}
+
+.submenu {
+    border-radius: 0px !important;
+}
+
+/* header */
+header {
+    background-image: url(./assets/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header h1 {
+    font-size: 70px;
+}
+
+.bg-header {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.animation::after {
+    content: "|";
+    animation-name: typing;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-size: 40px;
+}
+
+@keyframes typing {
+    0% {
+        content: " |";
+    }
+
+    2% {
+        content: " F|";
+    }
+
+    4% {
+        content: " Fr|";
+    }
+
+    6% {
+        content: " Fre|";
+    }
+
+    8% {
+        content: " Free|";
+    }
+
+    10% {
+        content: " Freel|";
+    }
+
+    12% {
+        content: " Freela|";
+    }
+
+    14% {
+        content: " Freelan|";
+    }
+
+    16% {
+        content: " Freelanc|";
+    }
+
+    18% {
+        content: " Freelance|";
+    }
+
+    20% {
+        content: " Freelancer|";
+    }
+
+    22% {
+        content: " Freelance|";
+    }
+
+    23% {
+        content: " Freelanc|";
+    }
+
+    24% {
+        content: " Freelan|";
+    }
+
+    26% {
+        content: " Freela|";
+    }
+
+    28% {
+        content: " Freel|";
+    }
+
+    30% {
+        content: " Free|";
+    }
+
+    32% {
+        content: " Fre|";
+    }
+
+    34% {
+        content: " Fr|";
+    }
+
+    36% {
+        content: " F|";
+    }
+
+    38% {
+        content: " |";
+    }
+
+    40% {
+        content: " D|";
+    }
+
+    42% {
+        content: " De|";
+    }
+
+    44% {
+        content: " Dev|";
+    }
+
+    46% {
+        content: " Deve|";
+    }
+
+    48% {
+        content: " Devel|";
+    }
+
+    50% {
+        content: " Develo|";
+    }
+
+    52% {
+        content: " Develop|";
+    }
+
+    54% {
+        content: " Develope|";
+    }
+
+    56% {
+        content: " Developer|";
+    }
+
+    58% {
+        content: " Develope|";
+    }
+
+    60% {
+        content: " Develop|";
+    }
+
+    62% {
+        content: " Develo|";
+    }
+
+    64% {
+        content: " Devel|";
+    }
+
+    66% {
+        content: " Deve|";
+    }
+
+    68% {
+        content: " Dev|";
+    }
+
+    70% {
+        content: " De|";
+    }
+
+    72% {
+        content: " D|";
+    }
+
+    74% {
+        content: " |";
+    }
+
+    75% {
+        content: " P|";
+    }
+
+    76% {
+        content: " Ph|";
+    }
+
+    77% {
+        content: " Pho|";
+    }
+
+    78% {
+        content: " Phot|";
+    }
+
+    79% {
+        content: " Photo|";
+    }
+
+    80% {
+        content: " Photog|";
+    }
+
+    81% {
+        content: " Photogr|";
+    }
+
+    81% {
+        content: " Photogra|";
+    }
+
+    82% {
+        content: " Photograp|";
+    }
+
+    83% {
+        content: " Photograph|";
+    }
+
+    84% {
+        content: " Photographe|";
+    }
+
+    85% {
+        content: " Photographer|";
+    }
+
+    86% {
+        content: " Photographe|";
+    }
+
+    87% {
+        content: " Photograph|";
+    }
+
+    88% {
+        content: " Photograp|";
+    }
+
+    89% {
+        content: " Photogra|";
+    }
+
+    90% {
+        content: " Photogr|";
+    }
+
+    91% {
+        content: " Photog|";
+    }
+
+    92% {
+        content: " Photo|";
+    }
+
+    93% {
+        content: " Phot|";
+    }
+
+    94% {
+        content: " Pho|";
+    }
+
+    95% {
+        content: " Ph|";
+    }
+
+    98% {
+        content: " P|";
+    }
+
+    100% {
+        content: " |";
+    }
+}
+
+/* about */
+.about-contant {
+    font-size: 20px;
+    font-weight: 300;
+    color: #4E4E4E;
+}
+
+.text-color {
+    color: #4E4E4E;
+}
+
+.skill-1 {
+    height: 10px;
+    width: 85%;
+}
+
+.skill-2 {
+    height: 10px;
+    width: 75%;
+}
+
+.skill-3 {
+    height: 10px;
+    width: 50%;
+}
+
+.skill-4 {
+    height: 10px;
+    width: 90%;
+}
+
+.about-line {
+    width: 100px;
+    height: 4px;
+    background-color: #0078FF;
+}
+
+/* Servces */
+.serves-header {
+    font-size: 48px;
+}
+
+.ser-line {
+    width: 50px;
+    height: 5px;
+    background-color: #0078FF;
+
+}
+
+
+.service-icon {
+    width: 125px;
+    height: 125px;
+    border: #0078FF solid 10px;
+    transition: background-color 1s;
+
+}
+
+.card:hover .service-icon {
+    width: 125px;
+    height: 125px;
+    border: #CDE1F8 solid 10px;
+    background-color: #0078FF;
+    color: white;
+
+}
+
+.sv-icon {
+    font-size: 30px;
+}
+
+.port {
+    border: 0px;
+
+}
+
+.port img {
+    transition: transform 1s;
+}
+
+/* work */
+.work {
+
+    background-image: url(./assets/post-3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+
+}
+
+.work-icon {
+    width: 80px;
+    height: 80px;
+    border: 10px white solid;
+    border-radius: 50%;
+}
+.work-bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 120, 255, 0.6);
+}
+
+.work-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.w-icon {
+    font-size: 25px;
+}
+
+.num1::after {
+    content: "450";
+    animation-name: number;
+    animation-duration: 1s;
+    animation-direction: alternate;
+
+}
+
+@keyframes number {
+    0% {
+        content: "100";
+    }
+
+    20% {
+        content: "200";
+    }
+
+    40% {
+        content: "300";
+    }
+
+    80% {
+        content: "400";
+    }
+
+    100% {
+        content: "450";
+    }
+
+}
+
+.num2::after {
+    content: "25";
+    animation-name: number1;
+    animation-duration: 1s;
+    animation-direction: alternate;
+
+}
+
+@keyframes number1 {
+    0% {
+        content: "5";
+    }
+
+    20% {
+        content: "10";
+    }
+
+    40% {
+        content: "15";
+    }
+
+    80% {
+        content: "20";
+    }
+
+    100% {
+        content: "25";
+    }
+
+}
+
+.num3::after {
+    content: "550";
+    animation-name: number2;
+    animation-duration: 1s;
+    animation-direction: alternate;
+
+}
+
+@keyframes number2 {
+    0% {
+        content: "150";
+    }
+
+    20% {
+        content: "250";
+    }
+
+    40% {
+        content: "450";
+    }
+
+    80% {
+        content: "500";
+    }
+
+    100% {
+        content: "500";
+    }
+
+}
+
+.num4::after {
+    content: "48";
+    animation-name: number3;
+    animation-duration: 1s;
+    animation-direction: alternate;
+}
+
+
+@keyframes number3 {
+    0% {
+        content: "10";
+    }
+
+    20% {
+        content: "15";
+    }
+
+    40% {
+        content: "25";
+    }
+
+    80% {
+        content: "35";
+    }
+
+    100% {
+        content: "48";
+    }
+
+}
+
+/* portfolio */
+.port:hover img {
+    transform: scale(1.3, 1.3);
+}
+
+/* client feedback */
+.feed-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.text-size {
+    font-size: 18px;
+}
+
+.feedback {
+    background-image: url(../image/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+}
+
+.slide {
+    background-color: rgba(0, 120, 255, 0.8);
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+}
+
+/* blog */
+.blog-img {
+    width: 30px;
+    height: 30px;
+}
+
+/* get in touch */
+.get-touch {
+    background-image: url(../image/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    border: #0078FF solid 4px;
+    transition: background-color 1s;
+}
+
+.icons:hover {
+    background-color: #0078FF;
+    color: white;
+    border: #CDE1F8 solid 4px;
+}
+
+.pri-opcity {
+    height: 100%;
+    background-color: rgba(0, 120, 255, 0.8);
+}
+
+/* back to top */
+.back-top {
+    position: fixed;
+    top: 90%;
+    right: 40px;
+
+    background-color: #298EFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-top a {
+    color: #fff;
+}
+
